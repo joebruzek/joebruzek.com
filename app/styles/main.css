@@ -2,6 +2,10 @@
   padding: 20px;
 }
 
+.footer {
+  padding: 50px;
+}
+
 body {
   padding-top: 50px;
 }
@@ -33,6 +37,10 @@ body {
   overflow: hidden;
 }
 
+.circle {
+  border-radius: 100px;
+}
+
 .active {
   /*background-color: black;*/
   color: #FFFFFF;
@@ -50,7 +58,6 @@ img.bg {
 }
 
 img.tile {
-  /*height: 100%;*/
-  vertical-align: middle;
   width: 100%;
+  height: 100%;
 }
