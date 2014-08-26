@@ -35,6 +35,18 @@ angular
         templateUrl: 'views/contact.html',
         controller: 'ContactCtrl'
       })
+      .when('/tapus', {
+        templateUrl: 'views/tapus.html',
+        controller: 'TapusCtrl'
+      })
+      .when('/pickmymovie', {
+        templateUrl: 'views/pickmymovie.html',
+        controller: 'PickMyMovieCtrl'
+      })
+      .when('/deathnumber', {
+        templateUrl: 'views/deathnumber.html',
+        controller: 'DeathNumberCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
