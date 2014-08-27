@@ -1,5 +1,16 @@
-.header {
+/*.header {
   padding: 20px;
+}*/
+
+.title {
+  font-size: 300%;
+  color: #CD0000;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.space {
+  padding: 50px;
 }
 
 .footer {
@@ -8,12 +19,6 @@
 
 body {
   padding-top: 50px;
-}
-
-.name {
-  color: #CD0000;
-  font-size: 300%;
-  font-weight: bold;
 }
 
 .background {
@@ -28,17 +33,17 @@ body {
 .project {
   float: left;
   width: 33%;
-  height: 200px;
+  height: 250px;
   font-size: 10px;
   line-height: 1.4;
   text-align: center;
   background-color: #b0b0b0;
-  border: 1px solid white;
+  border: 5px solid white;
   overflow: hidden;
 }
 
 .circle {
-  border-radius: 100px;
+  border-radius: 150px;
 }
 
 .active {
@@ -60,4 +65,8 @@ img.bg {
 img.tile {
   width: 100%;
   height: 100%;
+}
+
+.tapus-pic {
+  width:100%;
 }
