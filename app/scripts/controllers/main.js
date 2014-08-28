@@ -28,10 +28,10 @@ angular.module('joebruzekcomApp')
     }
 
     $scope.linkedin = function() {
-    	//link to linkedin
+    	window.location="LINKEDIN";
     }
 
     $scope.github = function() {
-    	//link to github
+      window.location="https://github.com/joebruzek";
     }
   });

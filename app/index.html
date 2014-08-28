@@ -19,15 +19,27 @@
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
     <div class="container body">
-      <div class="background">
-        <!-- <img class="bg" src="images/background.jpg"> -->
-      </div>
-
       <div ng-view=""></div>
-      <div class="footer"></div> <!-- Just padding -->
-    </div><!-- /.container -->
+      <div class="footer">
+        <div class="navbar navbar-default navbar-bottom" role="navigation">
+          <div class="container">
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#/about">About</a></li>
+                <li><a href="#/contact">Contact</a></li>
+                <li><a href="#/projects">Projects</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.linkedin.com/pub/joe-bruzek/66/5b4/92"><img src="images/linkedin-logo.png"></a></li>
+                <li><a href="https://twitter.com/BRUZEKcommaJOE"><img src="images/twitter-logo.png"></a></li>
+                <li><a href="https://github.com/joebruzek"><img src="images/github-small.png"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
