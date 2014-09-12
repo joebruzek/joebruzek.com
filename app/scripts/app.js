@@ -47,6 +47,10 @@ angular
         templateUrl: 'views/deathnumber.html',
         controller: 'DeathNumberCtrl'
       })
+      .when('/seek', {
+        templateUrl: 'views/seek.html',
+        controller: 'SeekCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
