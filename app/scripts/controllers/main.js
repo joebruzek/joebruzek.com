@@ -15,6 +15,20 @@ angular.module('joebruzekcomApp')
       'Karma'
     ];
 
+    $(window).scroll(function (event) {
+      var position = $(window).scrollTop();
+      console.log(position);
+      if (position >= 100) {
+        $('.scroll').fadeOut();
+      } else {
+        $('.scroll').fadeIn();
+      }
+    });
+
+    $(document).ready(function(){
+      $(".scroll").effect("bounce", { times:3 }, 2000);
+    });
+
     $('.project').mouseenter(function() {
     	$(this).addClass('active');
     });
@@ -27,11 +41,15 @@ angular.module('joebruzekcomApp')
     	$location.path('/' + location);
     }
 
-    $scope.linkedin = function() {
-    	window.location="LINKEDIN";
+    $scope.resume = function() {
+      window.location="https://github.com/joebruzek/resume/blob/master/Joseph%20A%20Bruzek%20-%20Resume.pdf?raw=true", '_blank';
+    }
+
+    $scope.linkedIn = function() {
+    	window.location="https://www.linkedin.com/pub/joe-bruzek/66/5b4/92";
     }
 
     $scope.github = function() {
-      window.location="https://github.com/joebruzek";
+      window.location="https://github.com/joebruzek", '_blank';
     }
   });

@@ -49,6 +49,13 @@ body {
   list-style: none;
 }
 
+.scroll {
+  position: fixed;
+  width: 100px;
+  bottom: 50px;
+  left: 50px;
+}
+
 .grid-menu {
   display: block;
   margin-right: auto;
@@ -67,7 +74,8 @@ body {
 }
 
 .project-nopic {
-  background-color: #FFFFFF;
+  /*background-color: #FF0000;*/
+  color: #FFFFFF;
 }
 
 .circle {

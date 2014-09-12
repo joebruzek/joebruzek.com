@@ -12,7 +12,11 @@
   </div>
 
   <div class="row">
-    <div class="col-md-1"></div>
+    <div class="col-md-1">
+      <div class="scroll">
+        <img class="tile scroll-image" src="images/scroll.png">
+      </div>
+    </div>
     <div class="col-md-10 grid-column">
 
       <div class="grid-menu">
@@ -22,7 +26,7 @@
             <img class="tile" src="images/pickmymovie.png">
           </li>
 
-          <li class="project circle project-nopic" ng-click="linkTo('about')">
+          <li class="project circle project-nopic" style="background-color: #0000FF" ng-click="linkTo('about')">
             <h1>About</h1>
           </li>
           
@@ -38,7 +42,7 @@
             <img class="tile" src="images/critisearch.png">
           </li>
         
-          <li class="project circle project-nopic" ng-click="linkTo('contact')">
+          <li class="project circle project-nopic" style="background-color: #FF0000" ng-click="linkTo('contact')">
             <h1>Contact</h1>
           </li>
         
@@ -46,8 +50,8 @@
             <img class="tile" src="images/tapus.png">
           </li>
         
-          <li class="project" ng-click="linkTo('project')">
-            <img class="tile" src="images/vt.jpg">
+          <li class="project circle project-nopic" style="background-color: #1DC021" ng-click="resume()">
+            <h1>Resume</h1>          
           </li>
         
           <li class="project" ng-click="github()">
