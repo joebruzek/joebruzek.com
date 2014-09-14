@@ -15,10 +15,6 @@ angular.module('joebruzekcomApp')
       'Karma'
     ];
 
-    $(document).ready(function() {
-      window.location="/#";
-    });
-
     $(window).scroll(function (event) {
       var position = $(window).scrollTop();
       console.log(position);
@@ -29,9 +25,9 @@ angular.module('joebruzekcomApp')
       }
     });
 
-    $(document).ready(function(){
-      $(".scroll").effect("bounce", { times:3 }, 2000);
-    });
+    $('.pickmymovie').click(function() {
+      $location.path('/pickmymovie');
+    })
 
     $scope.linkTo = function(location) {
     	$location.path('/' + location);
