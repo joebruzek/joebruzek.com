@@ -54,6 +54,7 @@ body {
   width: 100px;
   bottom: 50px;
   left: 50px;
+  background-color: #FFFF00;
 }
 
 .grid-menu {
@@ -65,7 +66,7 @@ body {
 .project {
   float: left;
   width: 31%;
-  height: 300px;
+  /*height: 300px;*/
   font-size: 10px;
   line-height: 1.4;
   text-align: center;
@@ -73,17 +74,16 @@ body {
   overflow: hidden;
 }
 
+.project:hover {
+  opacity: 0.7;
+}
+
 .project-nopic {
-  /*background-color: #FF0000;*/
   color: #FFFFFF;
 }
 
 .circle {
   border-radius: 150px;
-}
-
-.active {
-  opacity: 0.7;
 }
 
 img.bg {
@@ -101,6 +101,11 @@ img.tile {
   height: 100%;
 }
 
+a.tile {
+  width: 100%;
+  height: 100%;
+}
+
 .tapus-pic {
   width:100%;
 }
@@ -111,4 +116,10 @@ img.tile {
   border-radius: 10px;
   padding: 10px;
   margin: 20px;
+}
+
+.contact-box {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

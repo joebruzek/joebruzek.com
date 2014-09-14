@@ -15,6 +15,10 @@ angular.module('joebruzekcomApp')
       'Karma'
     ];
 
+    $(document).ready(function() {
+      window.location="/#";
+    });
+
     $(window).scroll(function (event) {
       var position = $(window).scrollTop();
       console.log(position);
@@ -27,14 +31,6 @@ angular.module('joebruzekcomApp')
 
     $(document).ready(function(){
       $(".scroll").effect("bounce", { times:3 }, 2000);
-    });
-
-    $('.project').mouseenter(function() {
-    	$(this).addClass('active');
-    });
-
-    $('.project').mouseleave(function() {
-    	$(this).removeClass('active');
     });
 
     $scope.linkTo = function(location) {
@@ -51,5 +47,9 @@ angular.module('joebruzekcomApp')
 
     $scope.github = function() {
       window.location="https://github.com/joebruzek", '_blank';
+    }
+
+    $scope.twitter = function() {
+      window.location="https://twitter.com/BRUZEKcommaJOE", '_blank';
     }
   });
