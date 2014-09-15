@@ -82,7 +82,7 @@ body {
 }
 
 .circle {
-  border-radius: 150px;
+  border-radius: 50%;
 }
 
 img.bg {
@@ -118,7 +118,21 @@ a.tile {
 }
 
 .contact-box {
+  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin: 1%;
+  border-radius: 5px;
+}
+
+.contact {
+  background-color: #FFFFFF;
+  opacity: 0.9;
+  border-radius: 5%;
+}
+
+.project-p {
+  max-height: 50%;
+  border: 1px solid #000000;
 }

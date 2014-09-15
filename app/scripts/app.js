@@ -51,6 +51,14 @@ angular
         templateUrl: 'views/seek.html',
         controller: 'SeekCtrl'
       })
+      .when('/critisearch', {
+        templateUrl: 'views/critisearch.html',
+        controller: 'CritisearchCtrl'
+      })
+      .when('/hc-cs', {
+        templateUrl: 'views/hccs.html',
+        controller: 'HccsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
